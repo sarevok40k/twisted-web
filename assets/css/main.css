@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body {
 		background-color: #2e3141;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.9), rgba(46, 49, 65, 0.9)), url("../../images/sample_powerup.png");
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -119,6 +119,10 @@ input, select, textarea {
 			-ms-transition: none !important;
 			transition: none !important;
 		}
+
+	body.aquelarre-body {
+		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.5), rgba(46, 49, 65, 0.5)), url("../../images/AQimage09.jpg");
+	}
 
 /* Type */
 
@@ -2920,7 +2924,8 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out;
-		background-color: transparent;
+		background-color:  rgba(53, 56, 73, 0.95);
+		color: #ffffff !important;
 		border-radius: 5px;
 		border: 0;
 		box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.125);
@@ -3436,6 +3441,7 @@ input, select, textarea {
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
+
 	}
 
 		#banner .inner {
@@ -3523,7 +3529,7 @@ input, select, textarea {
 			#banner {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/Aquelarre.png");
 				background-size: auto,
  cover;
 				background-position: center,
@@ -4217,4 +4223,29 @@ input, select, textarea {
   width: 120px;     /* O el tamaño que desees */
   height: auto;
   display: block;
+}
+
+.logo-centered {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.framed-text {
+  border-top: 3px solid #f78e1e;   /* línea superior naranja */
+  border-bottom: 3px solid #f78e1e; /* línea inferior naranja */
+  border-left: 0px;
+  padding: 1em 2em;
+  margin: 2em 0;
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  color: #f78e1e; /* color texto oscuro */
+  font-family: 'Georgia', serif;
+}
+
+.framed-text p {
+  margin: 0;
+  font-size: 1.2em;
 }
