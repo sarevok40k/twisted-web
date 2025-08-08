@@ -3317,6 +3317,8 @@ input, select, textarea {
 			list-style: none;
 			margin-bottom: 1.5em;
 			padding: 0;
+			color: #000000;
+  			border-bottom-color: rgba(0, 0, 0, 0.35);
 		}
 
 			#menu .links li {
@@ -3334,11 +3336,18 @@ input, select, textarea {
 					line-height: 1.85em;
 					padding: 0.75em 0;
 					text-transform: uppercase;
+					color: #000000 !important;
+					border-bottom-color: rgba(0, 0, 0, 0.35) !important;
 				}
 
 					#menu .links li a:hover {
-						background: #45558d;
+						background: #000000;
+						color: #ffffff !important;
 					}
+
+					#menu .links a:hover {
+						  color: #000000 ;
+						}
 
 		@media screen and (max-width: 736px) {
 
@@ -3379,6 +3388,7 @@ input, select, textarea {
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
+		text-align: center;
 	}
 
 		#banner .inner {
@@ -3396,7 +3406,8 @@ input, select, textarea {
 			-ms-transform: translateY(0);
 			transform: translateY(0);
 			opacity: 1;
-			margin: 0 0 1.3em 0;
+			margin-left: auto;
+  			margin-right: auto;
 		}
 
 			#banner .logo .logo-personalizado .icon {
@@ -4044,6 +4055,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		margin: 0 auto;
 		width: 55em;
+		text-align: center;
 	}
 
 		#footer .inner > * {
@@ -4065,6 +4077,7 @@ input, select, textarea {
 			margin: 4em 0 2em 0;
 			padding: 2em 0 0 0;
 			width: 100%;
+			justify-content: center; /* centra horizontalmente */
 		}
 
 			#footer .inner .copyright li {
@@ -4179,7 +4192,6 @@ input, select, textarea {
 	#banner .logo-personalizado img {
 	  max-width: 120px; /* Cambia este valor según lo que quieras */
 	  height: auto;
-	  display: block;
 	  margin: 0;
 	}
 
@@ -4201,4 +4213,25 @@ input, select, textarea {
 	body:not(.is-preload) #banner .logo-personalizado {
 	  opacity: 1;
 	  transform: none;
+	}
+
+	#footer .icons {
+	  display: flex;
+	  justify-content: center; /* centra horizontalmente */
+	  gap: 1rem; /* espacio entre iconos */
+	  padding: 0;
+	  margin: 0 0 1rem 0;
+	  list-style: none;
+	}
+	
+	#footer .icons a.icon {
+	  opacity: 0.3;            /* baja visibilidad por defecto */
+	  transition: opacity 0.3s ease, filter 0.3s ease;
+	  filter: grayscale(100%); /* opcional: hace los iconos en blanco y negro */
+	}
+
+	/* Al pasar el ratón: iconos en blanco y totalmente visibles */
+	#footer .icons a.icon:hover {
+	  opacity: 1;
+	  filter: none;   /* elimina grayscale si lo aplicaste */
 	}
