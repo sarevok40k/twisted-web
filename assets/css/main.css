@@ -100,7 +100,7 @@ input, select, textarea {
 
 	body {
 		background-color: #000000;
-		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.95), rgba(46, 49, 65, 0.95)), url("../../images/bg.jpg");
+		/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.95), rgba(46, 49, 65, 0.95)), url("../../images/bg.jpg");*/
 		background-size: auto,
  cover;
 		background-attachment: fixed,
@@ -2320,7 +2320,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #4c5c96;
+			border-color: #fcd61f;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2745,7 +2745,7 @@ input, select, textarea {
 				}
 
 				ul.pagination li > .page.active {
-					background-color: #4c5c96;
+					background-color: #fcd61f;
 				}
 
 			ul.pagination li:first-child {
@@ -2913,7 +2913,7 @@ input, select, textarea {
 		input[type="button"].primary,
 		button.primary,
 		.button.primary {
-			background-color: #4c5c96;
+			background-color: #fcd61f;
 			box-shadow: none;
 		}
 
@@ -3281,7 +3281,7 @@ input, select, textarea {
 			-ms-transition: opacity 0.35s ease, -ms-transform 0.35s ease;
 			transition: opacity 0.35s ease, transform 0.35s ease;
 			-webkit-overflow-scrolling: touch;
-			background: #4c5c96;
+			background: #fcd61f;
 			border-radius: 5px;
 			display: block;
 			max-width: 100%;
@@ -3465,8 +3465,8 @@ input, select, textarea {
 
 			#banner {
 				padding: 7em 0 8.25em 0 ;
-				background-color: #2e3141;
-				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+				background-color: #000000;
+				/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg"); */
 				background-size: auto,
  cover;
 				background-position: center,
@@ -3577,8 +3577,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 9em 0 6.25em 0 ;
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: #000000;
+			/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");*/
 			background-size: auto,
  cover;
 			background-position: center,
@@ -3628,6 +3628,27 @@ input, select, textarea {
 		background-color: #2e3141;
 		margin: 6.5em 0;
 		position: relative;
+		color: #000000;
+	}
+	.wrapper h1,
+	.wrapper h2,
+	.wrapper h3,
+	.wrapper h4,
+	.wrapper h5,
+	.wrapper h6 {
+	  color: #000000;
+	}
+
+	/* Color del texto para el botón "Learn more" dentro de .wrapper */
+	.wrapper a.special {
+	  color: #000000; /* negro */
+	  border-color: #000000; /* cambia también el borde del círculo del icono */
+	}
+
+	/* Color del icono flecha dentro del botón */
+	.wrapper a.special:before {
+	  border-color: #000000;
+	  color: #000000;
 	}
 
 		.wrapper:before, .wrapper:after {
@@ -3767,19 +3788,19 @@ input, select, textarea {
 			}
 
 		.wrapper.spotlight {
-			background-color: #4c5c96;
+			background-color: #fcd61f;
 		}
 
 			.wrapper.spotlight:before, .wrapper.spotlight:after {
-				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%234c5c96%3B' /%3E%3C/svg%3E");
+				background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpolygon points='0,100 100,0 100,100' style='fill:%23fcd61f%3B' /%3E%3C/svg%3E");
 			}
 
 			.wrapper.spotlight:before {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #fcd61f, 0 1px 0 0 #fcd61f;
 			}
 
 			.wrapper.spotlight:after {
-				box-shadow: inset 0 -1px 0 0 #4c5c96, 0 1px 0 0 #4c5c96;
+				box-shadow: inset 0 -1px 0 0 #fcd61f, 0 1px 0 0 #fcd61f;
 			}
 
 			.wrapper.spotlight .inner {
@@ -4070,8 +4091,8 @@ input, select, textarea {
 	@media screen and (max-width: 1280px) {
 
 		#footer {
-			background-color: #2e3141;
-			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
+			background-color: #000000;
+			/*background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");*/
 			background-size: auto,
  cover;
 			background-position: center,
