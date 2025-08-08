@@ -3628,7 +3628,7 @@ input, select, textarea {
 		background-color: #2e3141;
 		margin: 6.5em 0;
 		position: relative;
-		color: #000000;
+		color: #000000 !important;
 	}
 	.wrapper h1,
 	.wrapper h2,
@@ -3636,7 +3636,7 @@ input, select, textarea {
 	.wrapper h4,
 	.wrapper h5,
 	.wrapper h6 {
-	  color: #000000;
+	  color: #000000 !important;
 	}
 
 	/* Color del texto para el botón "Learn more" dentro de .wrapper */
