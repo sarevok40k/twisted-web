@@ -251,7 +251,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color: #fcd61f;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -3389,6 +3389,7 @@ input, select, textarea {
 	#banner {
 		padding: 10em 0 4.75em 0 ;
 		text-align: center;
+		color: #fcd61f;
 	}
 
 		#banner .inner {
@@ -3819,6 +3820,11 @@ input, select, textarea {
 			.wrapper.spotlight strong,
 			.wrapper.spotlight b {
     			color: #000000 !important;
+			}
+
+			.wrapper.spotlight.style2 strong,
+			.wrapper.spotlight.style2 b {
+    			color: #ffffff !important;
 			}
 
 			.wrapper.spotlight .inner {
