@@ -3718,6 +3718,8 @@ input, select, textarea {
 			width: 55em;
 		}
 
+
+
 		.wrapper.style2 {
 			background-color: #000000;
 		}
@@ -3814,6 +3816,11 @@ input, select, textarea {
 				box-shadow: inset 0 -1px 0 0 #fcd61f, 0 1px 0 0 #fcd61f;
 			}
 
+			.wrapper.spotlight strong,
+			.wrapper.spotlight b {
+    			color: #000000 !important;
+			}
+
 			.wrapper.spotlight .inner {
 				display: -moz-flex;
 				display: -webkit-flex;
@@ -3862,6 +3869,7 @@ input, select, textarea {
 			.wrapper.spotlight.style2 {
 				background-color: #000000;
 				color: #ffffff !important;
+
 			}
 
 				.wrapper.spotlight.style2:before, .wrapper.spotlight.style2:after {
@@ -4083,7 +4091,7 @@ input, select, textarea {
 
 			#footer .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
-				color: rgba(255, 255, 255, 0.35);
+				color: rgba(255, 255, 255, 0.75);
 				display: inline-block;
 				font-size: 0.9em;
 				line-height: 1;
@@ -4226,7 +4234,7 @@ input, select, textarea {
 	}
 	
 	#footer .icons a.icon {
-	  opacity: 0.3;            /* baja visibilidad por defecto */
+	  opacity: 0.8;            /* baja visibilidad por defecto */
 	  transition: opacity 0.3s ease, filter 0.3s ease;
 	  filter: grayscale(100%); /* opcional: hace los iconos en blanco y negro */
 	}
@@ -4236,3 +4244,14 @@ input, select, textarea {
 	  opacity: 1;
 	  filter: none;   /* elimina grayscale si lo aplicaste */
 	}
+
+	a.boton-steam {
+    text-decoration: none;
+    border: none;   
+	}
+	a.boton-steam img {
+    display: block;
+    width: 100%;       /* ocupa todo el ancho del contenedor */
+    max-width: 400px;  /* ancho máximo opcional */
+    height: auto;      /* mantiene la proporción */
+}
